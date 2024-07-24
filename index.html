@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e6878467af.js" crossorigin="anonymous"></script>
+</head><div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo1.png" class="logo">
+            <ul class="ul" id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#serivices">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Passionate Frontend Developer</p>
+            <h1>Hi, I'm <span>Ashis</span> <br>Your Web Design Specialist</h1>
+            <p>Creating intuitive & immersive websites<br>that captivate and delight users</p>
+        </div>
+    </div>
+</div>
+    <!-- -----------------------About------------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="myphoto1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a dedicated and innovative Frontend Developer, I specialize in creating visually appealing and highly functional web interfaces. My journey in web development has equipped me with a strong foundation in both UI/UX design and technical skills. I'm passionate about leveraging my expertise to transform ideas into seamless digital experiences. My experience spans developing web applications, designing intuitive user interfaces, and crafting responsive designs that provide an exceptional user experience.</p>
+<div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing intuitive and user-friendly web interfaces</li>
+                            <li><span>Web Development</span><br>Developing dynamic and responsive web applications using HTML, CSS, JavaScript, and frameworks like ReactJS</li>
+                            <li><span>App Development</span><br>Creating feature-rich Android and iOS apps with Java</li>
+                            <li><span>Backend Development</span><br>Working with MySQL for database management</li>
+                            <li><span>CSS Frameworks</span><br>Expertise in Tailwind CSS and Bootstrap for styling and responsive design</li>
+                            <li><span>Languages</span><br>Fluent in Odia, Hindi, English, and Bengali</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2021-Present</span><br>UI/UX Design Training at ET Institute, mastering user interface and experience design principles</li>
+                            <li><span>2019-2022</span><br>Web Application Development, focusing on building dynamic and scalable web solutions</li>
+                            <li><span>2024-2026</span><br>Internship at ABIT, gaining hands-on experience in advanced web technologies and project management</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2024</span><br>M.Tech in Computer Science, ABIT Cuttack</li>
+                            <li><span>2023</span><br>Bachelor of Science in Computer Science (B.Sc), N.C. Autonomous College, Jajpur</li>
+                            <li><span>2019</span><br>Secondary Education, Rambag High School, Jajpur</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------------------------services-------------------------------------- -->
+
+<div id="serivices" class="services">
+    <div class="container">
+        <h1 class="sub-title">my services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Creating stunning and functional web designs that enhance user experience and drive engagement. My approach combines aesthetic appeal with seamless functionality, ensuring each project not only looks great but also performs exceptionally well.</p>
+                <a href="#">Explore My Work</a>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UX/UI Design</h2>
+                <p>Transforming user experiences through thoughtful and intuitive design. My UX/UI design process focuses on understanding user needs, creating engaging interfaces, and ensuring a seamless interaction that captivates and retains users.</p>
+                <a href="#">Discover More</a>
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Crafting innovative and user-friendly app designs that enhance functionality and user satisfaction. My approach focuses on creating intuitive interfaces and seamless experiences that make your app stand out and resonate with its users.</p>
+                <a href="#">See My Work</a>
+                
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+<!-- -----------------------------------------portfolio------------------------------------------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" alt="Social Media App">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>This app connects you with talented individuals from around the world. Download it now from the Play Store to engage and network with a global community.</p>
+                </div>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+            <div class="work">
+                <img src="work-2.png" alt="Music App">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Discover and connect with music enthusiasts from around the world. Download the app from the Play Store to explore a vast library of songs and enjoy a personalized listening experience.</p>
+                </div>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+            <div class="work">
+                <img src="work-3.png" alt="Music App">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Immerse yourself in a global community of music lovers. Download our app from the Play Store to access an extensive collection of tracks and enjoy a customized listening journey.</p>
+                </div>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+
+<!-- -----------------------------------contact----------------------------------------------------------------- -->
+<div id="contact" class="contact">
+    <div class="container">
+<div class="row">
+    <div class="contact-left">
+<h1 class="sub-title" >contact me</h1>
+<p> <i class="fa-solid fa-paper-plane"></i>routasis411@gmail.com</p>
+<p> <i class="fa-solid fa-phone"></i> 7008448569</p>
+<div class="social-icons">
+    <a href="https://facebook.com/Ashis Kumar Rout" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://wa.me/7008448569" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="https://instagram.com/ashis5769" target="_blank" title="Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+    <a href="https://github.com/Ashiskumarrout" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+</div>
+
+<a href="my-cv.pdf" download class="btn btn2">Dowenlod cv</a>
+
+
+    </div>
+    <div class="contact-right">
+
+<form name="submit-to-google-sheet">
+<input type="text" name="name" placeholder="you name" required>
+<input type="email" name="email" id="your email" placeholder="your email" required>
+<textarea name="message" rows="6" placeholder="your masage"></textarea>
+<button type="sumbit" class="btn btn2" >sumbit</button>
+
+</form>
+<span id="msg"></span>
+    </div>
+
+</div>
+
+    </div>
+    <div class="copyright">
+        <p>copyright 0 Ashis  <i class="fa-solid fa-heart"></i> made with by Ashis</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwBCHPojJJUejikmx_L_ECtdBGbsKXK-bLfEIZXOpgwu1vSC5qa293Q8eBnaR4uQdJPcA/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML="Mesage set Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
